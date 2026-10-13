@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #6E5C62;
+}
+
+main {
+    background-color: #6E5C62;
+    padding: 0.5rem;
+    box-shadow: 0 10px 30px white;
+    width: 400px;
+    min-height: 500px;
+    box-sizing: border-box;
+}
+.cabeçalho {
+    font-size: 25px;
+    font-weight: 1000;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.jogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-template-rows: repeat(6, 50px);
+    gap: 6px;
+
+}
+
+.linha-superior{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+.linha-superior{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}.linha-superior{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.teclado {
+    display: flex;
+    
+}
+.button {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 150px;
+    border: 5px solid #4C4347;
+    border-radius: 6px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    background-color: #6E5C62;
+    color: white;
+}
+
+.cela {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 5px solid #4C4347;
+    border-radius: 6px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    background-color: #6E5C62;
+    color: white;
+}
+
+.correta {
+    background-color: #3AA394;;
+    border-color: #3AA394;
+}
+
+.incorreta {
+    background-color: #e2b754;;
+    border-color: #e2b754;
+}
+
+.posicao-errada {
+    background-color: #312A2C;;
+    border-color: #312A2C;
+}
+
+.nao-seleta {
+    background-color: #615458;;
+    border-color: #615458;
+}
+
+.seleta {
+    background-color: #6E5C62;;
+    border-color: #4C4347; 
+    border-bottom-width: 8px;
+}
+
+.disponivel {
+    background-color: #6E5C62;;
+    border-color: #4C4347;
+}
